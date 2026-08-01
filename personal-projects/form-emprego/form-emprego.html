@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Candidatura a Emprego</title>
+    <link rel="stylesheet" href="form-emprego.css"></link>
+</head>
+<body>
+    <div class="container">
+        <h1>Formulário de Candidatura a Emprego</h1>
+        <form>
+            <label for="name">Nome Completo: </label>
+            <input type="text" name="name" id="name" placeholder="Digite o seu nome" required/>
+
+            <label for="email">E-mail: </label>
+            <input type="email" name="email" id="email" placeholder="Digite o seu email" required/>
+
+            <label for="position">Posição</label>
+            <select id="position" name="position" required>
+                <option value>Selecione uma posição:</option>
+                <option value="programador">Programador</option>
+                <option value="designer">Designer</option>
+                <option value="gestor">Gestor</option>
+            </select>
+            <fieldset class="radio-group">
+                <legend >Availability</legend>
+                <input type="radio" id="fullTime" name="availability" value="fullTime" checked/>
+                <label for="fullTime">Tempo Inteiro</label>
+
+                <input type="radio" id="partTime" name="availability" value="partTime"/>
+                <label for="partTime">Tempo Parcial</label>
+            </fieldset>
+            
+            <label for="message">Porque és indicado/a para esta posição?</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your motivation" required></textarea>
+
+            <button type="submit">Submit Application</button>
+        </form>
+    </div>
+</body>
+</html>

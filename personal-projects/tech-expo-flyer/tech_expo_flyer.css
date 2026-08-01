@@ -1,0 +1,72 @@
+/*    ELEMENTOS   */
+html {
+  color: #000000;
+  font: 16px "Times New Roman";
+  background-color: #f0f3f5;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+header p {
+  margin: 8px 0;
+}
+
+body {
+  color: #000000;
+  font: 16px sans-serif;
+  background-color: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70vw;
+  max-width: 70vw;
+  min-height: calc(100vh - 100px);
+}
+
+/*  colocar as 3 colunas lado-a-lado  */
+main {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  min-width: 200px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  width: 280px;
+  height: 180px;
+  border-bottom: 4px solid #dddddd;
+  margin: 0 auto; /* centra a imagem, visto que transformamos em block*/
+  object-fit: cover;
+}
+
+hr {
+  width: 90%;
+  margin: 40px auto;
+}
+
+section {
+  flex: 1;
+  min-width: 50px;
+  width: 20%;
+}
+
+section h2 {
+  text-align: center;
+}
+
+.para-fim {
+  text-align: center;
+}

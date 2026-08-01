@@ -1,0 +1,60 @@
+html {
+  display: block;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  margin-bottom: 20px;
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.color-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 100px);
+  gap: 10px;
+  justify-content: center;
+  width: 100%;
+  max-width: 800px;
+}
+
+.color-box {
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border-radius: 8px;
+  text-align: center;
+  display: flex;
+}
+
+.color1 {
+  background-color: #33ff57;
+}
+
+.color2 {
+  background-color: rgb(128, 0, 128);
+}
+
+.color3 {
+  background-color: orange;
+}
+
+.color4 {
+  background-color: hsl(59, 61%, 26%);
+}
+
+.color5 {
+  background-color: red;
+}

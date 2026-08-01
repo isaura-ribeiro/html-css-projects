@@ -1,0 +1,127 @@
+html {
+  display: block;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1 {
+  display: block;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.pricing-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  border: 2px solid #000;
+  gap: 20px;
+  width: 80%;
+  max-width: 900px;
+  padding: 0 20px;
+}
+
+.pricing-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 0 0 200px;
+  border: 2px solid black;
+}
+
+.pricing-card:hover {
+  transform: scale(1.05);
+}
+
+h2 {
+  display: block;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+h2,
+p {
+  margin: 0;
+}
+
+p {
+  display: block;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #3e3e3e;
+  margin: 10px;
+  border-bottom: 1px solid #433d28;
+}
+
+.basic-plan {
+  order: 0;
+}
+
+.features {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+}
+
+li {
+  display: list-item;
+}
+
+.features li {
+  padding: 5px 0;
+  font-size: 0.95rem;
+}
+
+.check {
+  color: #219c54;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.cross {
+  color: crimson;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 15px;
+  background: #f1bc32;
+  color: #000;
+  font-weight: bold;
+  border: 3px solid #eebe3a;
+  padding: 5px;
+  transition: background 0.3s ease;
+}
+
+a:hover {
+  background: #facc50;
+}
+
+.pro-plan {
+  order: 1;
+  flex-grow: 2;
+  background: #f0f8ff;
+}
+
+.premium-plan {
+  order: 2;
+}
