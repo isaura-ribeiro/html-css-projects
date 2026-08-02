@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="um-lugar-comum.css" />
+  </head>
+  <body>
+    <h1>um lugar comum</h1>
+    <h2>textos de poesia</h2>
+    <p class="initial-paragraph">
+      um lugar para te (re-)encontrares, no meio do mundo
+    </p>
+    <div>
+      <strong>somos muito mais parecidos do que diferentes</strong>
+      <br />
+      <img
+        src="https://images.unsplash.com/photo-1785655140461-00cedfd2e4b4?q=80&w=1168&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="Inspiration"
+        height="200"
+      />
+    </div>
+    <hr />
+    <a
+      href="https://emumlugarcomum.wordpress.com/"
+      target="_blank"
+      title="Dailies"
+      >reflexões escritas</a
+    >
+    <br />
+    <div>
+      <button class="btn">Queres inspirar-te?</button>
+    </div>
+    <script>
+      function knowYou() {
+        let name = prompt("Como te Chamas?");
+        if (name == null || name === undefined || name == "") {
+          alert("Desculpa, ninguém tem esse nome..tenta de novo por favor");
+        } else {
+          let interest = prompt(
+            "Olá " + name + ", gostarias de um pouco de inspiração escrita?"
+          );
+          if (
+            interest === "sim" ||
+            interest === "Sim" ||
+            interest === "SIM" ||
+            interest === "Yes" ||
+            interest === "YES"
+          ) {
+            alert(
+              "Obrigado " +
+                name +
+                ", clica no botão de reflexões escritas, e boa sorte!"
+            );
+          } else {
+            alert(
+              "Ah..," +
+                name +
+                " não tens interesse em inspiração escrita..esquisito..."
+            );
+          }
+        }
+      }
+      document.querySelector(".btn").addEventListener("click", knowYou);
+    </script>
+  </body>
+</html>

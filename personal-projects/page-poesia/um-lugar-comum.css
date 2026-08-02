@@ -1,0 +1,73 @@
+body {
+  margin: 8px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h1 {
+  margin: auto;
+  padding: 0%;
+  font-size: larger;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: medium;
+  font-weight: 200;
+  color: black;
+}
+
+h1,
+h2,
+p,
+div,
+a {
+  display: block;
+  text-align: center;
+}
+
+hr {
+  display: block;
+  color: gray;
+  overflow: isolate;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 1px;
+}
+
+strong {
+  font-weight: bolder;
+}
+
+img {
+  justify-content: center;
+  height: 200px;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.btn {
+  appearance: none;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  margin: 20px auto;
+  box-shadow: 0;
+  border: 10px #ffcab0;
+  padding: 15px;
+  transition: all 150s linear;
+  border-radius: 4px;
+  border: 1px #b0b9eb;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+button:hover {
+  background: linear-gradient(to top, #b0b9eb 0%, #b0ebe1 100%);
+  cursor: pointer;
+  opacity: 0.9;
+  color: #ffff;
+}
+
+script {
+  display: none;
+}

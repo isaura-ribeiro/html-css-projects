@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie-edge /">
+    <title>Previsão Meteorologia</title>
+    <link rel="stylesheet" href="previsao-meteo.css" />
+  </head>
+  <body>
+    <div class="demo-html-css">
+      <h1 class="titulo">
+      <br />
+      <h1>🌤️ Hoje 25º em Lisboa</h1>
+      <h2>
+        19º /
+        <strong>23º</strong>C
+      </h2>
+      <ul>
+        <li>
+          <h3>🌦️ Amanhã</h3>
+          <p>
+            19º /
+            <strong>27ºC</strong>
+          </p>
+        </li>
+        <li>
+          <h3>🌤️ Terça</h3>
+          <p>
+            20º /
+            <strong>30ºC</strong>
+          </p>
+        </li>
+        <li>
+          <h3>🌤️ Quarta</h3>
+          <p>
+            20º /
+            <strong>30ºC</strong>
+          </p>
+        </li>
+      </ul>
+      <button>Escolha a Cidade</button>
+    </div>
+    <script>
+      function mudaCidade() {
+        let cidade = prompt("Qual a cidade em que vive?");
+        let temperatura = Number(prompt("Qual a temperatura na sua cidade?"));
+        let titulo = document.querySelector(".titulo");
+        if (temperatura >= 0) {
+          titulo.innerHTML = "😄 <br/> Hoje, " + temperatura + "ºC na cidade de " + cidade;
+        } else {
+          titulo.innerHTML = "🥶 <br/> Hoje, " + temperatura + "ºC na cidade de " + cidade;          
+        }
+      }
+      let tempButton = document.querySelector("button");
+      tempButton.addEventListener("click", mudaCidade);
+    </script>
+  </body>
+</html>

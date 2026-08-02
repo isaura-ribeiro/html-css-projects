@@ -1,0 +1,89 @@
+h1,
+h2,
+h3 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.demo-html-css h1 {
+  color: #a37236;
+  font-size: 34px;
+  line-height: 48px;
+  margin: 0;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.demo-html-css h2 {
+  margin: 0;
+  font-size: 34px;
+  line-height: 48px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: list-item;
+}
+
+.demo-html-css li {
+  list-style: none;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 10px;
+  transition: all 200ms ease-in-out;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+li:hover {
+  background-color: #d4b692;
+}
+
+h3 {
+  font-size: 34px;
+}
+
+.demo-html-css p {
+  font-size: 18px;
+  opacity: 0.7;
+  text-align: center;
+  font-family: monospace;
+}
+
+button {
+  appearance: auto;
+  border: 1px solid #a37236;
+  border-radius: 40px;
+  margin: 10px auto;
+  color: #a37236;
+  display: block;
+  background-color: transparent;
+  padding: 15px 20px;
+  transition: all 400ms ease;
+  text-align: center;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+div button:hover {
+  color: #ffff;
+  background-color: #a37236;
+  display: block;
+}
+
+script {
+  display: none;
+}
