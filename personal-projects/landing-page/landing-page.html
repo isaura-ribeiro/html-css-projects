@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="landing-page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Pedal Urbano</title>
+  </head>
+  <body>
+    <div id="page-wrapper">
+      <header id="header">
+        <div class="logo">
+          <img id="header-img" alt="Pedal Urbano" src="https://raw.githubusercontent.com/isaura-ribeiro/html-css-projects/main/personal-projects/landing-page/pedal_urbano_logo.png">
+        </div>
+        <nav id="nav-bar">
+          <ul>
+            <li>
+              <a class="nav-link" href="#caracteristicas">Características</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#como-funciona">Como Funciona</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#precos">Preços</a>
+            </li>
+          </ul>
+        </nav>
+    </header>
+    </div>
+    <div class="container"></div>
+    <section id="hero">
+      <h2>Bicicletas concebidas para mobilidade urbana
+      </h2>
+      <p>Engenharia, conforto e desempenho num único equipamento. Descubra uma nova forma de se deslocar pela cidade</p>
+      <form id="form" action="https://www.freecodecamp.org/email-submit">
+        <input 
+          name="email" 
+          id="email" 
+          type="email" placeholder="Introduza o seu endereço de email" 
+          required>
+        <input 
+          id="submit" 
+          type="submit" 
+          value="COMEÇAR AGORA" 
+          class="btn">
+      </form>
+    </section>
+    <div class="container">
+      <section id="caracteristicas">
+        <div class="grid">
+          <div class="icon">
+            <i class="fa fa-3x fa-wrench"></i>
+          </div>
+          <div class="desc">
+            <h2>Quadro em alumínio 6061</h2>
+            <p>
+              "Quadro produzido em liga de alumínio 6061, combinando baixo peso, rigidez estrutural e resistência à corrosão para utilização urbana diária."
+            </p>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="icon">
+            <i class="fa fa-3x fa-cogs" aria-hidden="true"></i>
+          </div>
+          <div class="desc">
+            <h2>Transmissão de 9 velocidades</h2>
+            <p>Sistema de transmissão de 9 velocidades com mudanças de relação progressivas, permitindo adaptar o esforço do ciclista a diferentes inclinações e condições de circulação.</p>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="icon">
+            <i class="fa fa-3x fa-stop-circle-o" aria-hidden="true"></i>
+          </div>
+          <div class="desc">
+            <h2>Travões de disco hidráulicos</h2>
+            <p>Sistema de travagem hidráulica com discos de 160 mm, proporcionando uma resposta de travagem consistente e maior controlo em condições de piso molhado.</p>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="icon">
+            <i class="fa fa-3x fa-bicycle" aria-hidden="true"></i>
+          </div>
+          <div class="desc">
+            <h2>Pneus urbanos de baixa resistência</h2>
+            <p>Pneus de 700 × 35C concebidos para reduzir a resistência ao rolamento, mantendo estabilidade, aderência e conforto em pavimentos urbanos.</p>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="icon">
+            <i class="fa fa-3x fa-lightbulb-o" aria-hidden="true"></i>
+          </div>
+          <div class="desc">
+            <h2>Iluminação LED integrada</h2>
+            <p>Sistema de iluminação LED dianteiro e traseiro alimentado por bateria recarregável, aumentando a visibilidade do ciclista em condições de baixa luminosidade.</p>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="icon">
+            <i class="fa fa-3x fa-arrows-alt" aria-hidden="true"></i>
+          </div>
+          <div class="desc">
+            <h2>Geometria orientada para conforto</h2>
+            <p>Geometria do quadro optimizada para uma posição de condução equilibrada, reduzindo a tensão sobre as costas e os braços durante deslocações prolongadas.</p>
+          </div>
+        </div>
+      </section>
+      <section id="como-funciona">
+        <iframe id="video" height="315" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&controls=0&showinfo=0" border="0" allowfullscreen>
+        </iframe>
+      </section>
+      <section id="precos">
+        <div class="produto" id="city">
+          <div class="level">CITY</div>
+          <h2>499€</h2>
+          <ol>
+            <li>Quadro em alumínio 6061</li>
+            <li>7 velocidades</li>
+            <li>Travões de disco mecânicos</li>
+            <li>Pneus 700 × 35C</li>
+            <li>Iluminação LED</li>
+          </ol>
+          <button class="btn">ESCOLHER</button>
+        </div>
+        <div class="produto" id="commuter">
+          <div class="level">COMMUTER</div>
+          <h2>699€</h2>
+          <ol>
+            <li>Quadro em alumínio 6061</li>
+            <li>9 velocidades</li>
+            <li>Travões de disco hidráulicos</li>
+            <li>Pneus 700 × 35C</li>
+            <li>Iluminação LED integrada</li>
+            <li>Forqueta com suspensão</li>
+          </ol>
+          <button class="btn">ESCOLHER</button>
+        </div>
+        <div class="produto" id="elite">
+          <div class="level">ELITE</div>
+          <h2>999€</h2>
+          <ol>
+            <li>Quadro de alumínio de baixo peso</li>
+            <li>11 velocidades</li>
+            <li>Travões de disco hidráulicos</li>
+            <li>Pneus 700 × 32C</li>
+            <li>Componentes de transmissão premium</li>
+            <li>Iluminação LED integrada</li>
+            <li>Selim ergonómico</li>
+          </ol>
+          <button class="btn">ESCOLHER</button>
+        </div>
+      </section>
+      <footer>
+        <ul>
+          <li>
+            <a href="#">Política de Privacidade</a>
+          </li>
+          <li>
+            <a href="#">Termos e Condições</a>
+          </li>
+          <li>
+            <a href="#">Contactos</a>
+          </li>
+        </ul>
+        <span>2026 Pedal Urbano ®</span>
+      </footer>
+    </div>
+  </body>
+</html>
